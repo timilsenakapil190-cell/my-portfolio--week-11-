@@ -1,0 +1,19 @@
+/* Dark Mode Styles */
+
+body {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+/* When dark mode is activated */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Dark Mode Button */
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
